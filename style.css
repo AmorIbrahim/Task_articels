@@ -1,0 +1,16 @@
+body { background-color: #f8f9fa; font-family: "Tajawal", sans-serif; }
+.sidebar { height: 100vh; background: #212529; color: white; padding: 20px; position: fixed; top: 0; left: 0; width: 220px; transition: margin 0.3s; z-index:1050; }
+.sidebar h4 { color: #ffc107; }
+.sidebar a { display: block; color: #adb5bd; text-decoration: none; padding: 10px; margin: 5px 0; border-radius: 8px; }
+.sidebar a.active, .sidebar a:hover { background: #343a40; color: white; }
+.content { margin-left: 240px; padding: 30px; transition: margin 0.3s; }
+.card { box-shadow: 0 4px 8px rgba(0,0,0,0.06); border-radius: 12px; }
+.table th a { color: white; text-decoration: none; }
+.pagination .page-link { color: #212529; }
+.pagination .active .page-link { background: #ffc107; border-color: #ffc107; }
+.toggle-btn { position: fixed; top: 15px; left: 15px; z-index: 1100; border-radius: 50%; width: 45px; height: 45px; font-size: 20px; }
+.sidebar.collapsed { margin-left: -240px; }
+.content.collapsed { margin-left: 20px; }
+.btn-sm { padding: .25rem .4rem; font-size: .78rem; }
+.modal-body textarea { min-height: 120px; }
+.alert-fixed { position: fixed; top: 20px; right: 20px; z-index: 2000; min-width: 260px; }
